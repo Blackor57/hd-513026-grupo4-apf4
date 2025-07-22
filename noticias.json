@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "gran apertura de parque jurasico",
+    "descripcion": "El nuevo parque se abre para todo el publico con criaturas sorprendentes y historias interesantes.",
+    "imagen": "../img/aperturaparque.jpeg",
+    "fecha": "18 de abril 2025"
+  },
+  {
+    "titulo": "nuevas medidad de seguridad implementadas ",
+    "descripcion": "Mejoras en los cercos y protocolos de emergencia. no alimentar a los dinosaurios y solo el personal adecuado podra acercace a mas de 100 metros",
+    "imagen": "../img/seguridadparque.png",
+    "fecha": "15 de abril 2025"
+  },
+  {
+    "titulo": "Nuevo bioma tropical",
+    "descripcion": "Explora el nuevo entorno tropical con especies únicas.",
+    "imagen": "https://via.placeholder.com/500x300?text=Bioma+Tropical",
+    "fecha": "12 de abril 2025"
+  },
+  {
+    "titulo": "Nacimiento de un Triceratops bebé",
+    "descripcion": "El equipo veterinario celebra el nacimiento de un Triceratops, el primero en el parque este año. Los visitantes podrán verlo en el área de crías durante las próximas semanas.",
+    "imagen": "https://via.placeholder.com/500x300?text=Triceratops+Bebé",
+    "fecha": "10 de abril 2025"
+  }
+]

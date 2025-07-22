@@ -1,0 +1,74 @@
+body {
+  background-image: url('../img/fondonoticias2.jpg');
+ /* background: linear-gradient(rgba(244, 244, 244, 0.7), rgba(46, 125, 50, 0.7)), 
+  url('../img/wallpaperflare.com_wallpaper.jpg'); /* Ruta de tu imagen de fondo */ 
+background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+background-position: center; /* Centra la imagen */
+background-attachment: fixed; /* Hace que el fondo sea fijo al hacer scroll */
+color: #fff; /* Texto blanco para contraste */
+font-family: Arial, sans-serif; /* Fuente legible */
+margin: 0;
+padding: 0;
+}
+
+.contenedor-noticias {
+    background-color: rgba(255, 255, 255, 0.423); /* Fondo blanco semitransparente para las noticias */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+/* Tarjeta principal */
+.carta-principal {
+  background-color: #ffffff56;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.carta-principal img {
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Mantiene las esquinas redondeadas */
+}
+
+.carta-principal h2 {
+  margin: 15px 0;
+  color: #333;
+}
+
+/* Tarjetas secundarias */
+.carta-secundaria {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.carta-secundaria img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta-secundaria h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.carta-secundaria p {
+  font-size: 0.9em;
+  color: #555;
+}
