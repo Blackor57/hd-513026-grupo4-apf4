@@ -2,13 +2,13 @@
   {
     "titulo": "gran apertura de parque jurasico",
     "descripcion": "El nuevo parque se abre para todo el publico con criaturas sorprendentes y historias interesantes.",
-    "imagen": "../img/aperturaparque.jpeg",
+    "imagen": "img/aperturaparque.jpeg",
     "fecha": "18 de abril 2025"
   },
   {
     "titulo": "nuevas medidad de seguridad implementadas ",
     "descripcion": "Mejoras en los cercos y protocolos de emergencia. no alimentar a los dinosaurios y solo el personal adecuado podra acercace a mas de 100 metros",
-    "imagen": "../img/seguridadparque.png",
+    "imagen": "img/seguridadparque.png",
     "fecha": "15 de abril 2025"
   },
   {
