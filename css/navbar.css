@@ -14,7 +14,7 @@
 .navbar {
   margin-top: 50px;
   /* position: absolute; */
-  background: url("/img/metal-texture.jpg") repeat; /* Repite la imagen en todo el navbar */
+  background: url("img/metal-texture.jpg") repeat; /* Repite la imagen en todo el navbar */
   background-size: 100px 100px; /* Ajusta el tamaño de cada imagen repetida */
   padding: 1.5rem 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
