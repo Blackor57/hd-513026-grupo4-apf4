@@ -1,0 +1,63 @@
+[
+    {
+      "id": "huayangosaurus",
+      "name": "Huayangosaurus",
+      "image": "img/huayangosaurus.png",
+      "description": "Con una longitud próxima a los 8,5 metros, el Huayangosaurus parece una versión más pequeña del Stegosaurus, pues comparte las características placas de la espalda con su pariente más famoso. Su nombre significa «lagarto de Huayang», el antiguo nombre de la región china de Sichuan donde se encontró. Además de las prominentes placas acorazadas de su espalda, el Huayangosaurus tiene una cola con púas para defenderse de los depredadores."
+    },
+    {
+      "id": "homalocephale",
+      "name": "Homalocephale",
+      "image": "img/homalocephale.png",
+      "description": "Famoso por su característico cráneo plano (su nombre significa «cabeza uniforme»), el Homalocephale es un pequeño dinosaurio herbívoro que alcanza una longitud de 2,3 metros y un peso de 45 kg. Tiene una vista excelente que le ayuda a detectar a los depredadores y largas patas para huir de ellos, mientras que su grueso cráneo plano y su amplia pelvis lo protegen de los ataques."
+    },
+    {
+      "id": "herrerasaurus",
+      "name": "Herrerasaurus",
+      "image": "img/Herrerasaurus.png",
+      "description": "El Herrerasaurus es un pequeño terópodo de aproximadamente 4,5 metros de largo y 200 kg de peso. Es uno de los dinosaurios más antiguos que se conocen, ya que data del Triásico superior. De constitución ligera que le permite correr a gran velocidad y grandes dientes afilados para atrapar a su presa, el Herrerasaurus se alimenta de herbívoros de menor tamaño."
+    },
+    {
+      "id": "proceratosaurio",
+      "name": "Proceratosaurio",
+      "image": "img/proceratosaurio.png",
+      "description": "El pequeño terópodo Proceratosaurus es un dinosaurio carnívoro que se caracteriza por la llamativa cresta de su morro. Su nombre proviene de la creencia errónea de que este género guardaba relación con el Ceratosaurus. Sin embargo, un mayor estudio ha revelado que se trata de un pariente del Tyrannosaurus, aunque mucho más pequeño, con aproximadamente 4 metros de largo."
+    },
+    {
+      "id": "plesiosaurio",
+      "name": "Plesiosaurio",
+      "image": "img/plesiosaurio.png",
+      "description": "Conocido por sus poderosas extremidades en forma de pala, que le permiten nadar por el agua a gran velocidad, y por su cuello flexible y alargado, con el que puede desplazarse rápidamente para capturar peces y otras presas, el plesiosaurio es un reptil marino piscívoro que puede alcanzar los 3,5 m de longitud. El nombre plesiosaurio significa «lagarto cercano». Su origen se remonta al Jurásico inferior, hace unos 200 millones de años."
+    },
+    {
+      "id": "pteranodon",
+      "name": "Pteranodon",
+      "image": "img/pteranodon.png",
+      "description": "El Pteranodon es uno de los pterosaurios más grandes que hayan existido, con una envergadura aproximada de 7 metros, y es fácilmente reconocible por la cresta que tiene en la parte superior del cráneo y que utiliza para pavonearse. Aunque su dieta se basa principalmente en peces, el Pteranodon no tiene dientes, por lo que muerde a su presa con el pico; de hecho, su nombre significa “ala sin dientes”."
+    },
+    {
+      "id": "polacanthus",
+      "name": "Polacanthus",
+      "image": "img/polacanthus.png",
+      "description": "El Polacanthus es un género de anquilosáurido herbívoro que vivió durante el Cretácico inferior, hace aproximadamente 125 millones de años. Puede alcanzar unos 7 metros de largo y está cubierto de placas acorazadas y púas para protegerse de los depredadores. Es más, dichas púas son las que le dan el nombre de Polacanthus, que significa «muchas púas»."
+    },
+    {
+      "id": "pentaceratops",
+      "name": "Pentaceratops",
+      "image": "img/pentaceratops.png",
+      "description": "El Pentaceratops es pariente del popular Triceratops, con el que tiene un gran parecido, aunque, como su nombre lo indica (significa “cara con cinco cuernos”), tiene cinco cuernos en vez de tres. Este género puede llegar a medir 7 metros de largo y pesar más de 5 toneladas, y tiene una llamativa gola ósea prominente en la parte posterior del cráneo que le sirve para atraer parejas."
+    },
+    {
+      "id": "pachycephalosaurus",
+      "name": "Pachycephalosaurus",
+      "image": "img/pachycephalosaurus.png",
+      "description": "El Pachycephalosaurus es un dinosaurio herbívoro que vivió en Norteamérica durante el Cretácico superior. Su nombre significa «lagarto cabezón», en referencia al denso cráneo de gran tamaño que los expertos creen que utilizaba para enfrentarse a otros miembros de la misma especie para luchar por el territorio. Con una longitud de hasta 4,5 metros y un peso aproximado de 0,5 tonelada, el Pachycephalosaurus es uno de los dinosaurios paquicefalosáuridos de mayor tamaño."
+    },
+    {
+      "id": "parasaurolophus",
+      "name": "Parasaurolophus",
+      "image": "img/parasaurolophus.png",
+      "description": "El Parasaurolophus es un hadrosáurido herbívoro originario de Norteamérica, famoso por la característica cresta que se extiende desde la parte posterior de su cabeza y que da nombre al dinosaurio, pues significa “parecido al lagarto con cresta”. El Parasaurolophus puede alcanzar los 7.5 metros de largo y, aunque suele caminar a cuatro patas, puede erguirse en dos patas si necesita correr o llegar a puntos elevados."
+    }
+  ]
+  

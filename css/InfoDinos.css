@@ -1,0 +1,139 @@
+
+
+/* Fondo del video */
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  /* más atrás */
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  /* color negro con 40% de opacidad */
+  z-index: -1;
+  /* encima del video, pero debajo del contenido */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+
+/* Contenedor de tarjetas */
+
+main {
+  position: relative;
+  z-index: 1;
+  /* por encima del overlay */
+  text-align: center;
+  color: white;
+  padding-top: 20vh;
+}
+#cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Tarjetas */
+.card {
+  background: linear-gradient(135deg, #596b5a, #233a23);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  background-image: url('/img/metal2.jpg');
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Modal */
+.modal {
+  display: none; /* oculto al inicio */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #cardsContainer {
+    gap: 15px;
+  }
+  .card {
+    width: 150px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+}

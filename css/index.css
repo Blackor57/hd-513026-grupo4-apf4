@@ -1,0 +1,375 @@
+
+.bannerHero {
+  /* margin-top: -165px; */
+  position: relative;
+}
+
+.bannerHero-image {
+  height: 750px;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bannerHero-image_img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 750px;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+
+.video-fondo {
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contenido-banner {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  text-align: right;
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contenido-banner h2 {
+  font-family: var(--barlow-semibold-3);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px; /* Leve separación de letras */
+  line-height: 20px;
+  margin-bottom: 15px; /* Espacio debajo */
+  text-align: right;
+  text-transform: uppercase; /* Opcional: todo en mayúsculas */
+}
+
+.title-banner {
+  width: 765px;
+  margin-right: 10px;
+}
+
+.contenido-banner h1 {
+  font-size: 3em;
+  margin: 0 0 20px 0; /* Espacio debajo */
+  letter-spacing: 0.015em;
+  text-align: right;
+}
+
+.contenido-banner p {
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 0.5px;
+  line-height: 34px;
+  text-align: right;
+  font-weight: 600;
+  font-family: var(--barlow-semibold-2);
+}
+
+/* Estilos para las tarjetas */
+.custom-col {
+  width: 33.3333%;
+  padding: 0 15px 1rem 15px;
+  box-sizing: border-box;
+}
+
+.custom-row-horizontal {
+  display: flex;
+  height: 100%;
+}
+
+.custom-col-img {
+  flex: 0 0 33.3333%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.custom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem 0 0 0.25rem;
+  display: block;
+}
+
+.custom-col-content {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.custom-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.last-updated small {
+  color: #6c757d; /* gris suave */
+}
+
+.custom-container {
+  width: 90%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.custom-row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cc03_highlights {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+--------------------
+.aem-GridColumn {
+  box-sizing: border-box;
+  clear: both;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  border-radius: 8px; /* Borde redondeado */
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute; /* Posicionamos la imagen fuera de la tarjeta */
+  top: 0;
+  right: 65%; /* Empujamos la imagen fuera de la tarjeta a la derecha */
+  transition: transform 0.5s ease; /* Animación de la imagen */
+  z-index: 1;
+}
+
+.card-body {
+  position: relative;
+  z-index: 0; /* Asegura que el texto esté encima */
+  padding: 1rem;
+  opacity: 1;
+  transition: opacity 0.5s ease 0.5s; /* Transición para que el texto tarde en aparecer */
+}
+
+/* Hover en la tarjeta */
+.card:hover img {
+  transform: translateX(65%); /* La imagen se mueve hacia dentro de la tarjeta */
+  z-index: 2;
+}
+
+.card:hover::before {
+  transform: translateX(100%); /* El fondo verde se desliza hacia dentro */
+}
+
+.card:hover .card-body {
+  opacity: 0; /* El texto se desvanece cuando se hace hover */
+}
+
+.card:not(:hover) .card-body {
+  opacity: 1; /* El texto se vuelve visible cuando se desactiva el hover */
+}
+
+.banner-aventura {
+  display: flex;
+  height: 500px;
+  background-color: #99C221;
+  background-image: url('/img/fondo-animales.png'); /* opcional */
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.info-viaje {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  text-align: left;
+}
+
+.info-viaje h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.info-viaje p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.boton-reserva {
+  background-color: white;
+  color: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.boton-reserva:hover {
+  background-color: #e0e0e0;
+}
+
+.imagen-animal {
+  flex: 1;
+  background-image: url('https://www.universalstudioshollywood.com/tridiondata/ush/en/us/files/images/ush-jurassic-world-land-hero-b.jpg'); /* cambia por la imagen real */
+  background-size: cover;
+  background-position: center;
+}
+
+.mid-banner{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+.mid-banner-image {
+  height: 500px;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Stylos para el acordeon */
+
+.accordion-container {
+  width: 70%;
+  margin: 40px auto;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  overflow: hidden;
+  font-family: var(--barlow-semibold-3, Arial, sans-serif);
+}
+
+.accordion-item {
+  border-bottom: 1px solid #dee2e6;
+  background-color: #fff;
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #e3f2fd;
+  color: #0d6efd;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1rem;
+}
+
+.accordion-button:hover {
+  background-color: #cfe4fb;
+}
+
+.accordion-button.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.accordion-body {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.accordion {
+  width: 70%; /* Ajusta el ancho aquí */
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.accordion-button {
+  background-color: #e3f2fd;
+  color: #0d6efd;
+  font-weight: bold;
+  padding: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: var(--barlow-semibold-3);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+  font-family: var(--barlow-semibold-3);
+}

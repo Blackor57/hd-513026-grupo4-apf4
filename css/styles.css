@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+--color-primary: #F21905;   /* rojo dino peligro */
+--color-secondary: #299332; /* verde jungla viva */
+--color-accent: #F2E205;    /* amarillo alerta / energía */
+--color-dark: #0D0D0D;      /* negro elegante y fuerte */
+--color-light: #C0C0C0;     /* plateado para contraste limpio */
+--color-background: #ffffff; /* blanco o un gris muy claro para airear */
+--color-white: white;
+--color-fount: black;
+--anton-regular: 'Anton', sans-serif;
+--fount-style: var(--anton-regular);
+--barlow-semibold-2: 'Barlow', sans-serif;
+--barlow-semibold-3: 'barlow-semibold', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fount-style);
+    text-align: center;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    line-height: 1.6;
+    min-height: 100vh;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--color-primary);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}

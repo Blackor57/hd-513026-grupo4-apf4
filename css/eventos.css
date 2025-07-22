@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/fondoev.jpeg);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #dcd7d7;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.evento img,
+.evento > div {
+    border-radius: 20px;
+    box-shadow: 12px 9px 9px -3px rgba(235, 235, 235, 0.53);;
+    background-color: #fff;
+    max-height: 200px;
+}
+
+.evento > div {
+    padding: 10px;
+}
+
+.evento h2 {
+    margin-bottom: 20px;
+}
+
+.evento > div p {
+    text-align: left;
+}
+
+.evento button {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.evento img {
+    width: 40%
+}
+
