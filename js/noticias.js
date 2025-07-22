@@ -14,7 +14,7 @@ function noticiaCreada(titulo, descripcion, imagen, fecha) {
 
 }
 
-fetch('../noticias.json')
+fetch('/hd-513026-grupo4-apf4/noticias.json')
   .then(response => response.json())
   .then(noticias => {
     const contenedor = document.getElementById("contenedor-cartas");
